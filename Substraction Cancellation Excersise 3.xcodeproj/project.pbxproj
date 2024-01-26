@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90AE15EA2B642019009AAE30 /* Substraction_Cancellation_Excersise_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE15E92B642019009AAE30 /* Substraction_Cancellation_Excersise_3App.swift */; };
+		90AE15EC2B642019009AAE30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE15EB2B642019009AAE30 /* ContentView.swift */; };
+		90AE15EE2B64201A009AAE30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90AE15ED2B64201A009AAE30 /* Assets.xcassets */; };
+		90AE15F22B64201A009AAE30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90AE15F12B64201A009AAE30 /* Preview Assets.xcassets */; };
+		90AE15FC2B64201A009AAE30 /* Substraction_Cancellation_Excersise_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE15FB2B64201A009AAE30 /* Substraction_Cancellation_Excersise_3Tests.swift */; };
+		90AE16062B64201A009AAE30 /* Substraction_Cancellation_Excersise_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE16052B64201A009AAE30 /* Substraction_Cancellation_Excersise_3UITests.swift */; };
+		90AE16082B64201A009AAE30 /* Substraction_Cancellation_Excersise_3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE16072B64201A009AAE30 /* Substraction_Cancellation_Excersise_3UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90AE15F82B64201A009AAE30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90AE15DE2B642019009AAE30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90AE15E52B642019009AAE30;
+			remoteInfo = "Substraction Cancellation Excersise 3";
+		};
+		90AE16022B64201A009AAE30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90AE15DE2B642019009AAE30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90AE15E52B642019009AAE30;
+			remoteInfo = "Substraction Cancellation Excersise 3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90AE15E62B642019009AAE30 /* Substraction Cancellation Excersise 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Substraction Cancellation Excersise 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90AE15E92B642019009AAE30 /* Substraction_Cancellation_Excersise_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substraction_Cancellation_Excersise_3App.swift; sourceTree = "<group>"; };
+		90AE15EB2B642019009AAE30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		90AE15ED2B64201A009AAE30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90AE15EF2B64201A009AAE30 /* Substraction_Cancellation_Excersise_3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Substraction_Cancellation_Excersise_3.entitlements; sourceTree = "<group>"; };
+		90AE15F12B64201A009AAE30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		90AE15F72B64201A009AAE30 /* Substraction Cancellation Excersise 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Substraction Cancellation Excersise 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90AE15FB2B64201A009AAE30 /* Substraction_Cancellation_Excersise_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substraction_Cancellation_Excersise_3Tests.swift; sourceTree = "<group>"; };
+		90AE16012B64201A009AAE30 /* Substraction Cancellation Excersise 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Substraction Cancellation Excersise 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90AE16052B64201A009AAE30 /* Substraction_Cancellation_Excersise_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substraction_Cancellation_Excersise_3UITests.swift; sourceTree = "<group>"; };
+		90AE16072B64201A009AAE30 /* Substraction_Cancellation_Excersise_3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substraction_Cancellation_Excersise_3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90AE15E32B642019009AAE30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90AE15F42B64201A009AAE30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90AE15FE2B64201A009AAE30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90AE15DD2B642019009AAE30 = {
+			isa = PBXGroup;
+			children = (
+				90AE15E82B642019009AAE30 /* Substraction Cancellation Excersise 3 */,
+				90AE15FA2B64201A009AAE30 /* Substraction Cancellation Excersise 3Tests */,
+				90AE16042B64201A009AAE30 /* Substraction Cancellation Excersise 3UITests */,
+				90AE15E72B642019009AAE30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90AE15E72B642019009AAE30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90AE15E62B642019009AAE30 /* Substraction Cancellation Excersise 3.app */,
+				90AE15F72B64201A009AAE30 /* Substraction Cancellation Excersise 3Tests.xctest */,
+				90AE16012B64201A009AAE30 /* Substraction Cancellation Excersise 3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90AE15E82B642019009AAE30 /* Substraction Cancellation Excersise 3 */ = {
+			isa = PBXGroup;
+			children = (
+				90AE15E92B642019009AAE30 /* Substraction_Cancellation_Excersise_3App.swift */,
+				90AE15EB2B642019009AAE30 /* ContentView.swift */,
+				90AE15ED2B64201A009AAE30 /* Assets.xcassets */,
+				90AE15EF2B64201A009AAE30 /* Substraction_Cancellation_Excersise_3.entitlements */,
+				90AE15F02B64201A009AAE30 /* Preview Content */,
+			);
+			path = "Substraction Cancellation Excersise 3";
+			sourceTree = "<group>";
+		};
+		90AE15F02B64201A009AAE30 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				90AE15F12B64201A009AAE30 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		90AE15FA2B64201A009AAE30 /* Substraction Cancellation Excersise 3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				90AE15FB2B64201A009AAE30 /* Substraction_Cancellation_Excersise_3Tests.swift */,
+			);
+			path = "Substraction Cancellation Excersise 3Tests";
+			sourceTree = "<group>";
+		};
+		90AE16042B64201A009AAE30 /* Substraction Cancellation Excersise 3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				90AE16052B64201A009AAE30 /* Substraction_Cancellation_Excersise_3UITests.swift */,
+				90AE16072B64201A009AAE30 /* Substraction_Cancellation_Excersise_3UITestsLaunchTests.swift */,
+			);
+			path = "Substraction Cancellation Excersise 3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90AE15E52B642019009AAE30 /* Substraction Cancellation Excersise 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90AE160B2B64201A009AAE30 /* Build configuration list for PBXNativeTarget "Substraction Cancellation Excersise 3" */;
+			buildPhases = (
+				90AE15E22B642019009AAE30 /* Sources */,
+				90AE15E32B642019009AAE30 /* Frameworks */,
+				90AE15E42B642019009AAE30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Substraction Cancellation Excersise 3";
+			productName = "Substraction Cancellation Excersise 3";
+			productReference = 90AE15E62B642019009AAE30 /* Substraction Cancellation Excersise 3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90AE15F62B64201A009AAE30 /* Substraction Cancellation Excersise 3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90AE160E2B64201A009AAE30 /* Build configuration list for PBXNativeTarget "Substraction Cancellation Excersise 3Tests" */;
+			buildPhases = (
+				90AE15F32B64201A009AAE30 /* Sources */,
+				90AE15F42B64201A009AAE30 /* Frameworks */,
+				90AE15F52B64201A009AAE30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90AE15F92B64201A009AAE30 /* PBXTargetDependency */,
+			);
+			name = "Substraction Cancellation Excersise 3Tests";
+			productName = "Substraction Cancellation Excersise 3Tests";
+			productReference = 90AE15F72B64201A009AAE30 /* Substraction Cancellation Excersise 3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90AE16002B64201A009AAE30 /* Substraction Cancellation Excersise 3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90AE16112B64201A009AAE30 /* Build configuration list for PBXNativeTarget "Substraction Cancellation Excersise 3UITests" */;
+			buildPhases = (
+				90AE15FD2B64201A009AAE30 /* Sources */,
+				90AE15FE2B64201A009AAE30 /* Frameworks */,
+				90AE15FF2B64201A009AAE30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90AE16032B64201A009AAE30 /* PBXTargetDependency */,
+			);
+			name = "Substraction Cancellation Excersise 3UITests";
+			productName = "Substraction Cancellation Excersise 3UITests";
+			productReference = 90AE16012B64201A009AAE30 /* Substraction Cancellation Excersise 3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90AE15DE2B642019009AAE30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					90AE15E52B642019009AAE30 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					90AE15F62B64201A009AAE30 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 90AE15E52B642019009AAE30;
+					};
+					90AE16002B64201A009AAE30 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 90AE15E52B642019009AAE30;
+					};
+				};
+			};
+			buildConfigurationList = 90AE15E12B642019009AAE30 /* Build configuration list for PBXProject "Substraction Cancellation Excersise 3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90AE15DD2B642019009AAE30;
+			productRefGroup = 90AE15E72B642019009AAE30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90AE15E52B642019009AAE30 /* Substraction Cancellation Excersise 3 */,
+				90AE15F62B64201A009AAE30 /* Substraction Cancellation Excersise 3Tests */,
+				90AE16002B64201A009AAE30 /* Substraction Cancellation Excersise 3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90AE15E42B642019009AAE30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AE15F22B64201A009AAE30 /* Preview Assets.xcassets in Resources */,
+				90AE15EE2B64201A009AAE30 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90AE15F52B64201A009AAE30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90AE15FF2B64201A009AAE30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90AE15E22B642019009AAE30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AE15EC2B642019009AAE30 /* ContentView.swift in Sources */,
+				90AE15EA2B642019009AAE30 /* Substraction_Cancellation_Excersise_3App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90AE15F32B64201A009AAE30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AE15FC2B64201A009AAE30 /* Substraction_Cancellation_Excersise_3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90AE15FD2B64201A009AAE30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AE16082B64201A009AAE30 /* Substraction_Cancellation_Excersise_3UITestsLaunchTests.swift in Sources */,
+				90AE16062B64201A009AAE30 /* Substraction_Cancellation_Excersise_3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90AE15F92B64201A009AAE30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90AE15E52B642019009AAE30 /* Substraction Cancellation Excersise 3 */;
+			targetProxy = 90AE15F82B64201A009AAE30 /* PBXContainerItemProxy */;
+		};
+		90AE16032B64201A009AAE30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90AE15E52B642019009AAE30 /* Substraction Cancellation Excersise 3 */;
+			targetProxy = 90AE16022B64201A009AAE30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		90AE16092B64201A009AAE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90AE160A2B64201A009AAE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		90AE160C2B64201A009AAE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Substraction Cancellation Excersise 3/Substraction_Cancellation_Excersise_3.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Substraction Cancellation Excersise 3/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iitmg.Substraction-Cancellation-Excersise-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90AE160D2B64201A009AAE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Substraction Cancellation Excersise 3/Substraction_Cancellation_Excersise_3.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Substraction Cancellation Excersise 3/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iitmg.Substraction-Cancellation-Excersise-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90AE160F2B64201A009AAE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iitmg.Substraction-Cancellation-Excersise-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Substraction Cancellation Excersise 3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Substraction Cancellation Excersise 3";
+			};
+			name = Debug;
+		};
+		90AE16102B64201A009AAE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iitmg.Substraction-Cancellation-Excersise-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Substraction Cancellation Excersise 3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Substraction Cancellation Excersise 3";
+			};
+			name = Release;
+		};
+		90AE16122B64201A009AAE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iitmg.Substraction-Cancellation-Excersise-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Substraction Cancellation Excersise 3";
+			};
+			name = Debug;
+		};
+		90AE16132B64201A009AAE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iitmg.Substraction-Cancellation-Excersise-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Substraction Cancellation Excersise 3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90AE15E12B642019009AAE30 /* Build configuration list for PBXProject "Substraction Cancellation Excersise 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90AE16092B64201A009AAE30 /* Debug */,
+				90AE160A2B64201A009AAE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90AE160B2B64201A009AAE30 /* Build configuration list for PBXNativeTarget "Substraction Cancellation Excersise 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90AE160C2B64201A009AAE30 /* Debug */,
+				90AE160D2B64201A009AAE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90AE160E2B64201A009AAE30 /* Build configuration list for PBXNativeTarget "Substraction Cancellation Excersise 3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90AE160F2B64201A009AAE30 /* Debug */,
+				90AE16102B64201A009AAE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90AE16112B64201A009AAE30 /* Build configuration list for PBXNativeTarget "Substraction Cancellation Excersise 3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90AE16122B64201A009AAE30 /* Debug */,
+				90AE16132B64201A009AAE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90AE15DE2B642019009AAE30 /* Project object */;
+}
