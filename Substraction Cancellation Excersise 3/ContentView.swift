@@ -1,7 +1,7 @@
 //
 //  ContentView.swift
 //
-//  Homework 3
+//  Homework 2
 //  GUI for Problem 3
 //
 //  Marco Gonzalez PHYS-440
