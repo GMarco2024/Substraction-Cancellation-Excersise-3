@@ -14,6 +14,9 @@
 		90AE15FC2B64201A009AAE30 /* Substraction_Cancellation_Excersise_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE15FB2B64201A009AAE30 /* Substraction_Cancellation_Excersise_3Tests.swift */; };
 		90AE16062B64201A009AAE30 /* Substraction_Cancellation_Excersise_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE16052B64201A009AAE30 /* Substraction_Cancellation_Excersise_3UITests.swift */; };
 		90AE16082B64201A009AAE30 /* Substraction_Cancellation_Excersise_3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE16072B64201A009AAE30 /* Substraction_Cancellation_Excersise_3UITestsLaunchTests.swift */; };
+		90AE16152B642138009AAE30 /* Problem3a.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE16142B642138009AAE30 /* Problem3a.swift */; };
+		90AE16172B64222D009AAE30 /* Problem3b.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE16162B64222D009AAE30 /* Problem3b.swift */; };
+		90AE16192B642249009AAE30 /* Problem3c.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE16182B642249009AAE30 /* Problem3c.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		90AE16012B64201A009AAE30 /* Substraction Cancellation Excersise 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Substraction Cancellation Excersise 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90AE16052B64201A009AAE30 /* Substraction_Cancellation_Excersise_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substraction_Cancellation_Excersise_3UITests.swift; sourceTree = "<group>"; };
 		90AE16072B64201A009AAE30 /* Substraction_Cancellation_Excersise_3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substraction_Cancellation_Excersise_3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		90AE16142B642138009AAE30 /* Problem3a.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem3a.swift; sourceTree = "<group>"; };
+		90AE16162B64222D009AAE30 /* Problem3b.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem3b.swift; sourceTree = "<group>"; };
+		90AE16182B642249009AAE30 /* Problem3c.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem3c.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			children = (
 				90AE15E92B642019009AAE30 /* Substraction_Cancellation_Excersise_3App.swift */,
 				90AE15EB2B642019009AAE30 /* ContentView.swift */,
+				90AE16142B642138009AAE30 /* Problem3a.swift */,
+				90AE16162B64222D009AAE30 /* Problem3b.swift */,
+				90AE16182B642249009AAE30 /* Problem3c.swift */,
 				90AE15ED2B64201A009AAE30 /* Assets.xcassets */,
 				90AE15EF2B64201A009AAE30 /* Substraction_Cancellation_Excersise_3.entitlements */,
 				90AE15F02B64201A009AAE30 /* Preview Content */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90AE16172B64222D009AAE30 /* Problem3b.swift in Sources */,
 				90AE15EC2B642019009AAE30 /* ContentView.swift in Sources */,
 				90AE15EA2B642019009AAE30 /* Substraction_Cancellation_Excersise_3App.swift in Sources */,
+				90AE16192B642249009AAE30 /* Problem3c.swift in Sources */,
+				90AE16152B642138009AAE30 /* Problem3a.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
