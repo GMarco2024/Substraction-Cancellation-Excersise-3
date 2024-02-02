@@ -8,7 +8,8 @@
 
 import Foundation
 
-// This function to calculate S^(up)
+// This function to calculate S^(up). S^(up) = (Sum n=1, N) 1/n.
+
 func calculateUpSum(N: Int) -> Double {
     var sum: Double = 0.0
     for n in 1...N {
@@ -17,7 +18,7 @@ func calculateUpSum(N: Int) -> Double {
     return sum
 }
 
-// This function to calculate S^(down)
+// This function to calculate S^(down). S^(down) = (Sum n = 1, N) 1/n.
 func calculateDownSum(N: Int) -> Double {
     var sum: Double = 0.0
     for n in (1...N).reversed() {

@@ -75,11 +75,11 @@ struct ContentView: View {
                         .padding()
                 }
                 
-                Text("Problem 3b - Log-Log Plot")
+                Text("Equation 3")
                     .font(.title)
                     .underline()
                 
-                Text("Log-Log plot of (S^(up) - S^(down))/(|S^(up)|-|S^(down)|).")
+                Text("(S^(up) - S^(down))/(|S^(up)|-|S^(down)|).")
                     .font(.headline)
                     .fontWeight(.regular)
                 
