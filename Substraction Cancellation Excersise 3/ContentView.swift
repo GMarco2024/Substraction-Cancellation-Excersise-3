@@ -22,7 +22,7 @@ struct ContentView: View {
     var body: some View {
         ScrollView {
             VStack {
-                Text("Problem 3 Precision of Sums")
+                Text("Problem 3a - Precision of Sums")
                     .font(.title)
                     .underline()
                 
@@ -75,7 +75,7 @@ struct ContentView: View {
                         .padding()
                 }
                 
-                Text("Problem 3 Precision of Sums")
+                Text("Problem 3b - Log-Log Plot")
                     .font(.title)
                     .underline()
                 
@@ -106,7 +106,6 @@ struct ContentView: View {
                     
                     Text(equation3Results.map { "\($0)" }.joined(separator: "\n"))
                         .padding()
-                    
                     
                 }
                 
