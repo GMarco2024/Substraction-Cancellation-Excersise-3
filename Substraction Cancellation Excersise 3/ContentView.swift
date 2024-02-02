@@ -15,7 +15,7 @@ struct ContentView: View {
     @State private var errorMessage: String? = nil
     @State private var upSum: Double? = nil
     @State private var downSum: Double? = nil
-
+    
     var body: some View {
         VStack {
             Text("Problem 3 Precision of Sums")
@@ -83,13 +83,23 @@ struct ContentView: View {
                 .font(.headline)
                 .fontWeight(.regular)
             
+            // Text box for entering value of N
+            TextField("Enter Value for N", text: $userInputN)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .padding()
+                .multilineTextAlignment(.center)
+            
+            // Button to calculate
+            Button("Calculate") {
+                
+            }
+            
         }
-        
     }
-        }
-        
-        
-        
-        
-
+    
+    
+    
+    
+    
+}
 
