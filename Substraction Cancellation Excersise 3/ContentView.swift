@@ -87,7 +87,7 @@ struct ContentView: View {
                 TextField("Enter Another Value for N", text: $userInputN2)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding()
-                    .multilineTextAlignment(.center)
+                   
                 
                 // Button to calculate
                 Button("Calculate") {
