@@ -26,7 +26,7 @@ struct ContentView: View {
                     .font(.title)
                     .underline()
                 
-                Text("This calculates S^(up) and S^(down) versus N.")
+                Text("This calculates S^(up) and S^(down) as functions of N.")
                     .font(.headline)
                     .fontWeight(.regular)
                 
@@ -99,7 +99,7 @@ struct ContentView: View {
                 .padding()
                 
                 // Text view to display iterations of Equation 3
-                ScrollView{
+        
                     VStack(alignment: .leading) {
                         Text("Results of \(userInputN2) iterations of Equation 3:")
                             .font(.headline)
@@ -108,7 +108,7 @@ struct ContentView: View {
                         Text(equation3Results.map { "\($0)" }.joined(separator: "\n"))
                             .padding()
                     }
-                }
+                
                 
                 // Button to copy the content of the text view
                 Button("Copy") {
