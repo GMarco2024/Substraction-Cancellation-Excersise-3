@@ -1,3 +1,13 @@
+//
+//  ContentView.swift
+//
+//  Homework 2
+//  GUI for Problem 3
+//
+//  Marco Gonzalez PHYS-440
+//
+
+
 import SwiftUI
 
 struct ContentView: View {
@@ -23,10 +33,15 @@ struct ContentView: View {
                         errorMessage = nil
                     } else {
                         errorMessage = "Please enter a valid integer for N"
+                        
+                        
+                        
+                        
                     }
+                
                 }
 
-            // Button for which to activate the calculations for S^(up) and S^(down)
+            //Button for which to activate the calculations for S^(up) and S^(down)
             
             Button("Calculate Sums") {
                 // Check if there's an error message
@@ -45,36 +60,32 @@ struct ContentView: View {
             .padding()
             .foregroundColor(errorMessage == nil ? .black : .red)
 
-            // Display the results if available
-            if let upSum = upSum, let downSum = downSum {
-                Text("S^(up) = \(upSum)")
-                Text("S^(down) = \(downSum)")
-            }
-
-            Text("Problem 3 Precision of Sums")
-                .font(.title)
-                .underline()
-            
-            Text("This calcaultes S^(up) and S^(down) versus N.")
-                .font(.headline)
-                .fontWeight(.regular)
-
             // Error message in which it is in the color of red
             if let errorMessage = errorMessage {
                 Text(errorMessage)
                     .foregroundColor(.red)
                     .padding()
             }
+
+            // Display the results if available
+            if let upSum = upSum, let downSum = downSum {
+                Text("S^(up) = \(upSum)")
+                Text("S^(down) = \(downSum)")
+            }
+            
+            Text("Problem 3 Precision of Sums")
+                                    .font(.title)
+                                    .underline()
+                                
+                                Text("This calcaultes S^(up) and S^(down) versus N.")
+                                    .font(.headline)
+                                    .fontWeight(.regular)
+            
         }
         .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
 
 
 
