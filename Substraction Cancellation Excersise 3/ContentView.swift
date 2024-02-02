@@ -102,8 +102,12 @@ struct ContentView: View {
                 VStack(alignment: .leading) {
                     Text("Results of \(userInputN2) iterations of Equation 3:")
                         .font(.headline)
+                    
+                    
                     Text(equation3Results.map { "\($0)" }.joined(separator: "\n"))
                         .padding()
+                    
+                    
                 }
                 
                 // Button to copy the content of the text view
