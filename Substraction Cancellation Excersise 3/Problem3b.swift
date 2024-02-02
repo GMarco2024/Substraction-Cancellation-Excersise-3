@@ -1,13 +1,4 @@
-//
-//  ContentView.swift
-//  HW 2
-//
-//  Problem 3b
-//  Created by PHYS 440 Marco on 1/24/24.
-//
-
 import Foundation
-import SwiftUI
 
 // Function to calculate Equation 3
 func calculateEquation3(N: Int) -> Double {
@@ -19,5 +10,12 @@ func calculateEquation3(N: Int) -> Double {
 
     return result
 }
+
+
+
+
+
+
+
 
 
