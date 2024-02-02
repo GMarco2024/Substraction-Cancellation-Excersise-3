@@ -21,7 +21,11 @@ struct ContentView: View {
             Text("Problem 3 Precision of Sums")
                 .font(.title)
                 .underline()
-
+            
+            Text("This calculates S^(up) and S^(down) versus N.")
+            .font(.headline)
+            .fontWeight(.regular)
+            
             // This is the text that goes into the GUI. We have "Enter N" for the integer as well as teh error message.
             
             TextField("Enter N", text: $userInputN)
@@ -78,9 +82,9 @@ struct ContentView: View {
                                     .font(.title)
                                     .underline()
                                 
-                                Text("This calcaultes S^(up) and S^(down) versus N.")
-                                    .font(.headline)
-                                    .fontWeight(.regular)
+            Text("Log-Log plot of (S^(up) - S^(down))/(|S^(up)|-|S^(down)|).")
+            .font(.headline)
+            .fontWeight(.regular)
             
         }
         .padding()
