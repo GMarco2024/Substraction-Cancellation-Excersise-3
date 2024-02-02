@@ -1,13 +1,3 @@
-//
-//  ContentView.swift
-//
-//  Homework 2
-//  GUI for Problem 3
-//
-//  Marco Gonzalez PHYS-440
-//
-
-
 import SwiftUI
 
 struct ContentView: View {
@@ -18,10 +8,15 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            Text("Problem 3 Precision of Sums")
+            Text("Problem 3a - Precision of Sums")
                 .font(.title)
                 .underline()
-
+            
+            Text("Calculates S^(up) and S^(down) as funcitons of N.")
+                .font(.headline)
+                .fontWeight(.regular)
+            
+            
             // This is the text that goes into the GUI. We have "Enter N" for the integer as well as teh error message.
             
             TextField("Enter N", text: $userInputN)
@@ -36,7 +31,7 @@ struct ContentView: View {
                     }
                 }
 
-            //Button for which to activate the calculations for S^(up) and S^(down)
+            // Button for which to activate the calculations for S^(up) and S^(down)
             
             Button("Calculate Sums") {
                 // Check if there's an error message
@@ -55,6 +50,15 @@ struct ContentView: View {
             .padding()
             .foregroundColor(errorMessage == nil ? .black : .red)
 
+            // Title under the "Calculate Sums" button
+            Text("Problem 3b - Precision of Sums")
+                .font(.title)
+                .underline()
+            
+            Text("Log-Log Plot (S^(up) - S(down))/(|S^(up)|+|S^(down)|).")
+                .font(.headline)
+                .fontWeight(.regular)
+            
             // Error message in which it is in the color of red
             if let errorMessage = errorMessage {
                 Text(errorMessage)
@@ -78,4 +82,6 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
+
+  
 
