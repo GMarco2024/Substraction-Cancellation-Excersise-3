@@ -23,8 +23,8 @@ struct ContentView: View {
                 .underline()
             
             Text("This calculates S^(up) and S^(down) versus N.")
-            .font(.headline)
-            .fontWeight(.regular)
+                .font(.headline)
+                .fontWeight(.regular)
             
             // This is the text that goes into the GUI. We have "Enter N" for the integer as well as teh error message.
             
@@ -38,13 +38,10 @@ struct ContentView: View {
                     } else {
                         errorMessage = "Please enter a valid integer for N"
                         
-                        
-                        
-                        
                     }
-                
+                    
                 }
-
+            
             //Button for which to activate the calculations for S^(up) and S^(down)
             
             Button("Calculate Sums") {
@@ -63,14 +60,14 @@ struct ContentView: View {
             }
             .padding()
             .foregroundColor(errorMessage == nil ? .black : .red)
-
+            
             // Error message in which it is in the color of red
             if let errorMessage = errorMessage {
                 Text(errorMessage)
                     .foregroundColor(.red)
                     .padding()
             }
-
+            
             // Display the results if available
             if let upSum = upSum, let downSum = downSum {
                 Text("S^(up) = \(upSum)")
@@ -79,20 +76,20 @@ struct ContentView: View {
             }
             
             Text("Problem 3 Precision of Sums")
-                                    .font(.title)
-                                    .underline()
-                                
+                .font(.title)
+                .underline()
+            
             Text("Log-Log plot of (S^(up) - S^(down))/(|S^(up)|-|S^(down)|).")
-            .font(.headline)
-            .fontWeight(.regular)
+                .font(.headline)
+                .fontWeight(.regular)
             
         }
-        .padding()
+        
     }
-}
+        }
+        
+        
+        
+        
 
-
-
-
-  
 
