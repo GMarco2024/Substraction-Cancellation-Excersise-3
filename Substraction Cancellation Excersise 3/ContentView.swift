@@ -71,6 +71,7 @@ struct ContentView: View {
             if let upSum = upSum, let downSum = downSum {
                 Text("S^(up) = \(upSum)")
                 Text("S^(down) = \(downSum)")
+                    .padding()
             }
             
             Text("Problem 3 Precision of Sums")
