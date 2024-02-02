@@ -5,7 +5,6 @@
 //  Problem 3b - Making a Log-Log Plot of Equation 3
 //  Created by PHYS 440 Marco on 1/24/24.
 //
-
 import Foundation
 import SwiftUI
 
@@ -17,6 +16,9 @@ func calculateEquation3(N: Int) -> Double {
     // Calculate Equation 3
     let result = (upSum - downSum) / (abs(upSum) + abs(downSum))
 
+    // Print intermediate results for debugging
+    print(" N=\(N), \(result)")
+    
     return result
 }
 
