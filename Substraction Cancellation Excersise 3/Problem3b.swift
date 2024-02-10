@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Problem3b.swift
 //  HW 2
 //
 //  Problem 3b - Making a Log-Log Plot of Equation 3

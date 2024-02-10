@@ -100,13 +100,16 @@ struct ContentView: View {
                 
                 // Text view to display iterations of Equation 3
         
+        
                     VStack(alignment: .leading) {
                         Text("Results of \(userInputN2) iterations of Equation 3:")
                             .font(.headline)
                         
+                     
                         
-                        Text(equation3Results.map { "\($0)" }.joined(separator: "\n"))
-                            .padding()
+                            Text(equation3Results.map { "\($0)" }.joined(separator: "\n"))
+                                .padding()
+                        
                     }
                 
                 
@@ -129,24 +132,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
-
-
-
-
-    
-    
-    
-    
-    
-
-
-
-
-
-    
-    
-    
-    
-    
-
