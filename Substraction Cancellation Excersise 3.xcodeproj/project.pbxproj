@@ -154,12 +154,12 @@
 		ED0FF3692B8457980083B107 /* Plot */ = {
 			isa = PBXGroup;
 			children = (
+				ED0FF35D2B8456CA0083B107 /* CalculatePlotData.swift */,
+				ED0FF35F2B8456EB0083B107 /* ChangingPlotParameters.swift */,
 				ED0FF3632B84570D0083B107 /* PlotDataClass.swift */,
+				ED0FF3612B8456FD0083B107 /* PlotDataStruct.swift */,
 				ED0FF3652B84571A0083B107 /* PlotClass.swift */,
 				ED0FF3672B8457270083B107 /* Operators.swift */,
-				ED0FF3612B8456FD0083B107 /* PlotDataStruct.swift */,
-				ED0FF35F2B8456EB0083B107 /* ChangingPlotParameters.swift */,
-				ED0FF35D2B8456CA0083B107 /* CalculatePlotData.swift */,
 			);
 			path = Plot;
 			sourceTree = "<group>";

@@ -65,7 +65,7 @@ import Observation
             plotData.append((x: Double(n), y: equationResult))
         }
         
-        await setThePlotParameters(color: "Blue", xLabel: "N", yLabel: "Equation 3 Value", title: "Plot of Equation 3", xMin: 1.0, xMax: Double(N), yMin: plotData.map { $0.y }.min() ?? 0, yMax: plotData.map { $0.y }.max() ?? 0)
+        await setThePlotParameters(color: "Blue", xLabel: "N", yLabel: "Equation 3b", title: "Plot of Equation 3b", xMin: 1.0, xMax: Double(N), yMin: plotData.map { $0.y }.min() ?? 0, yMax: plotData.map { $0.y }.max() ?? 0)
         
         await appendDataToPlot(plotData: plotData)
        

@@ -40,11 +40,22 @@ struct ContentView: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 100, height: 100)
+                
+                Text("Fig. 1 - S(Up) Equation")
+                    .font(.headline)
+                    .fontWeight(.regular)
+                    .italic()
                     
                 Image("S Down")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 100, height: 100)
+                
+                Text("Fig. 2 - S(Down) Equation")
+                    .font(.headline)
+                    .fontWeight(.regular)
+                    .italic()
+                    .padding()
                 
                 
                 Text("This calculates S^(up) and S^(down) as functions of N.")
@@ -106,6 +117,18 @@ struct ContentView: View {
                     .frame(width: 300, height: 300)
                     .padding(.vertical, -125)
                 
+                Text("Fig. 3 - Problem 3b equation asked for plotting.")
+                    .font(.headline)
+                    .fontWeight(.regular)
+                    .italic()
+                    .padding()
+                    
+                
+                
+                Text("This calculates the equation with respect to input N.")
+                    .font(.headline)
+                    .fontWeight(.regular)
+                
                 // Text box for entering value of N (separate from the first N)
                 TextField("Enter Another Value for N", text: $inputN2)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -120,7 +143,7 @@ struct ContentView: View {
                 }
                 .padding()
                 
-                Text("Results of \(inputN2) iterations of Equation 3:")
+                Text("Results of \(inputN2) iterations of Equation 3b:")
                     .font(.headline)
                 
                 
@@ -183,7 +206,7 @@ struct ContentView: View {
                 
                 Divider()
                 
-                Button("plotSN3", action: {
+                Button("Generate", action: {
                     
                     Task.init{
                         
