@@ -1,8 +1,0 @@
-ScrollView {
-        VStack(alignment: .leading) {
-            ForEach(equation3Results.indices, id: \.self) { index in
-                Text(String(format: "%.6f", equation3Results[index]))
-                    .padding()
-            }
-        }
-    }
