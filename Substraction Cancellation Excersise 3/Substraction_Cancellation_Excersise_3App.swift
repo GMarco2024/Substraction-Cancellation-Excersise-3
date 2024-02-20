@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import Observation
 
 @main
 struct Substraction_Cancellation_Excersise_3App: App {
+    
+    @State var plotData = PlotClass()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(plotData)
         }
     }
 }

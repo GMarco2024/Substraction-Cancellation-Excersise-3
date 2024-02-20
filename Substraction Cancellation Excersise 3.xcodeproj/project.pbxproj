@@ -17,6 +17,12 @@
 		90AE16152B642138009AAE30 /* Problem3a.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE16142B642138009AAE30 /* Problem3a.swift */; };
 		90AE16172B64222D009AAE30 /* Problem3b.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE16162B64222D009AAE30 /* Problem3b.swift */; };
 		90AE16192B642249009AAE30 /* Problem3c.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE16182B642249009AAE30 /* Problem3c.swift */; };
+		ED0FF35E2B8456CA0083B107 /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0FF35D2B8456CA0083B107 /* CalculatePlotData.swift */; };
+		ED0FF3602B8456EC0083B107 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0FF35F2B8456EB0083B107 /* ChangingPlotParameters.swift */; };
+		ED0FF3622B8456FD0083B107 /* PlotDataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0FF3612B8456FD0083B107 /* PlotDataStruct.swift */; };
+		ED0FF3642B84570D0083B107 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0FF3632B84570D0083B107 /* PlotDataClass.swift */; };
+		ED0FF3662B84571A0083B107 /* PlotClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0FF3652B84571A0083B107 /* PlotClass.swift */; };
+		ED0FF3682B8457270083B107 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0FF3672B8457270083B107 /* Operators.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		90AE16142B642138009AAE30 /* Problem3a.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem3a.swift; sourceTree = "<group>"; };
 		90AE16162B64222D009AAE30 /* Problem3b.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem3b.swift; sourceTree = "<group>"; };
 		90AE16182B642249009AAE30 /* Problem3c.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem3c.swift; sourceTree = "<group>"; };
+		ED0FF35D2B8456CA0083B107 /* CalculatePlotData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatePlotData.swift; sourceTree = "<group>"; };
+		ED0FF35F2B8456EB0083B107 /* ChangingPlotParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangingPlotParameters.swift; sourceTree = "<group>"; };
+		ED0FF3612B8456FD0083B107 /* PlotDataStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotDataStruct.swift; sourceTree = "<group>"; };
+		ED0FF3632B84570D0083B107 /* PlotDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotDataClass.swift; sourceTree = "<group>"; };
+		ED0FF3652B84571A0083B107 /* PlotClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotClass.swift; sourceTree = "<group>"; };
+		ED0FF3672B8457270083B107 /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,7 @@
 				90AE16142B642138009AAE30 /* Problem3a.swift */,
 				90AE16162B64222D009AAE30 /* Problem3b.swift */,
 				90AE16182B642249009AAE30 /* Problem3c.swift */,
+				ED0FF3692B8457980083B107 /* Plot */,
 				90AE15ED2B64201A009AAE30 /* Assets.xcassets */,
 				90AE15EF2B64201A009AAE30 /* Substraction_Cancellation_Excersise_3.entitlements */,
 				90AE15F02B64201A009AAE30 /* Preview Content */,
@@ -136,6 +149,19 @@
 				90AE16072B64201A009AAE30 /* Substraction_Cancellation_Excersise_3UITestsLaunchTests.swift */,
 			);
 			path = "Substraction Cancellation Excersise 3UITests";
+			sourceTree = "<group>";
+		};
+		ED0FF3692B8457980083B107 /* Plot */ = {
+			isa = PBXGroup;
+			children = (
+				ED0FF3632B84570D0083B107 /* PlotDataClass.swift */,
+				ED0FF3652B84571A0083B107 /* PlotClass.swift */,
+				ED0FF3672B8457270083B107 /* Operators.swift */,
+				ED0FF3612B8456FD0083B107 /* PlotDataStruct.swift */,
+				ED0FF35F2B8456EB0083B107 /* ChangingPlotParameters.swift */,
+				ED0FF35D2B8456CA0083B107 /* CalculatePlotData.swift */,
+			);
+			path = Plot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,10 +295,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				90AE16172B64222D009AAE30 /* Problem3b.swift in Sources */,
+				ED0FF35E2B8456CA0083B107 /* CalculatePlotData.swift in Sources */,
 				90AE15EC2B642019009AAE30 /* ContentView.swift in Sources */,
 				90AE15EA2B642019009AAE30 /* Substraction_Cancellation_Excersise_3App.swift in Sources */,
+				ED0FF3642B84570D0083B107 /* PlotDataClass.swift in Sources */,
 				90AE16192B642249009AAE30 /* Problem3c.swift in Sources */,
+				ED0FF3682B8457270083B107 /* Operators.swift in Sources */,
+				ED0FF3622B8456FD0083B107 /* PlotDataStruct.swift in Sources */,
+				ED0FF3602B8456EC0083B107 /* ChangingPlotParameters.swift in Sources */,
 				90AE16152B642138009AAE30 /* Problem3a.swift in Sources */,
+				ED0FF3662B84571A0083B107 /* PlotClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
