@@ -9,6 +9,10 @@
 import Foundation
 
 // This function to calculate S^(up). S^(up) = (Sum n=1, N) 1/n.
+//
+//   (up)            __ N       1
+//  S            =  \           -
+//                  /__ n = 1   n
 
 func calculateUpSum(N: Int) -> Double {
     var sum: Double = 0.0
@@ -19,6 +23,14 @@ func calculateUpSum(N: Int) -> Double {
 }
 
 // This function to calculate S^(down). S^(down) = (Sum n = 1, N) 1/n.
+//
+//   (down)       __ N       1
+//  S         =   \          -
+//                /__ n = 1  n
+
+
+
+
 func calculateDownSum(N: Int) -> Double {
     var sum: Double = 0.0
     for n in (1...N).reversed() {
