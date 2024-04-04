@@ -246,7 +246,7 @@ struct ContentView: View {
                 
                 
                 //Calculate the new plotting data and place in the plotDataModel
-                await calculator.plotSN3()
+                await calculator.plotSums()
                 
             }
         }

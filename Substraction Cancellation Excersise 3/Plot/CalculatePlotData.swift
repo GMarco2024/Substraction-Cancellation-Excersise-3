@@ -54,7 +54,7 @@ import Observation
         plotDataModel!.appendData(dataPoint: plotData)
     }
     
-    func plotSN3() async {
+    func plotSums() async {
         let N = 100 // Fixed value for N
         var plotData: [(x: Double, y: Double)] = []
         
